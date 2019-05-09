@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    color: #000;
+    background-color: #D8D8D8;
+    line-height: 1.5;
+    font-family: sans-serif;
+    min-width: 290px;
+    position: relative;
+}
+
+body a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header h2 {
+    color: #000;
+    font-size: 2em;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    width: 320px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar a {
+    text-decoration: none;
+}
